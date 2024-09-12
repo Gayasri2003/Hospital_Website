@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Hospitals</title>
+    <link rel="stylesheet" href="./css/stylesheet_services.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#989ac2">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+        function toggleMenu() {var navLinks = document.getElementById("nav-links");
+                               navLinks.classList.toggle("show");}
+      </script>
+</head>
+<body>
+    <!--sementic html-->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+          <a href="./home.html">
+            <img src="./images/Freelancer (5).png" alt="logo"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./doctors.html">Doctors</a></li>
+                <li><a href="./consulting_reservation.html">Consulting Reservation</a></li>
+                <li><a href="./pharmacy.html">Pharmacy</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+                    <div class="search-icon" id="search-form">
+                    <form>
+                        <input type="text" placeholder="Search" id="search-input">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h2>Our Services</h2>
+        <div class="service-d">
+            <p>Hospitals provide a comprehensive range of services designed to meet the diverse healthcare
+               needs of the community.Specialty care services provide advanced treatment for specific medical conditions,
+               supported by experts in fields such as cardiology, oncology, and neurology.
+               Preventive and wellness services aim to promote overall health through screenings, 
+               vaccinations, and health education. </p>
+        </div>
+        <div class="service-video">
+            <video id="services-video" autoplay loop muted>
+                <source src="./images/hospital services vedio.mp4"> 
+            </video>
+        </div>
+        <div class="service-buttons">
+           <ul>
+            <div class="serv-box">
+                <img src="./images/opd.avif" alt="service_img"> 
+                <li>Outpatient Care(OPD) <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/icu.jpg" alt="service_img">
+                <li>Intensive Care Unit(ICU) <a href="./consulting_reservation.html" class="appointment-btn">Info</a> </li></div>
+            <div class="serv-box">
+                <img src="./images/eye care.jpg" alt="service_img">
+                <li>Eye Care <a href="./consulting_reservation.html" class="appointment-btn">Info</a> </li></div>
+            <div class="serv-box">
+                <img src="./images/dental.jpg" alt="service_img">
+                <li>Dental Clinic  <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/ent centre.webp" alt="service_img">
+                <li>ENT Centre <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/dialycis.jpeg" alt="service_img">
+                <li>Dialysis Service <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/physio.webp" alt="service_img">
+                <li>physiotherapy Center <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/cardiac.webp" alt="service_img">
+                <li>Cardiac Care <a href="./consulting_reservation.html" class="appointment-btn">Info</a> </li></div>
+            <div class="serv-box">
+                <img src="./images/endoscopy.webp" alt="service_img">
+                <li>Endoscopy Centre <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/mom and baby care.jpg" alt="service_img">
+                <li>Mom and Baby Care <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/stroke.jpg" alt="service_img">
+                <li>Stroke Care <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+            <div class="serv-box">
+                <img src="./images/pregnancy care.jpeg" alt="service_img">
+                <li>Pregnancy Care <a href="./consulting_reservation.html" class="appointment-btn">Info</a></li></div>
+           </ul> 
+        </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="footer-d">
+        <div class="container2">
+            <div class="footer_col">
+              <h4>Contact Us</h4>
+              <ul class="contact_us">
+               <i class="fas fa-map-marker-alt"> Location</i> 
+               <li>No.456,Main street,Kegalle.</li> <br>
+               <i class="fas fa-phone"> Phone</i>
+               <li>035-2244115 / 076-1122334 </li><br>
+               <i class="fas fa-envelope"> Email</i>
+               <li>doctorhospitals@gmail.com</li><br> </ul>  
+            </div>
+            <div class="footer_col">
+              <h4>Quick Links</h4>
+            <div class="quick_links">
+                <li><a href="./home.html" class="menu-item active">Home</a></li>
+                <li><a href="./contact_us.html" class="menu-item">Contact Us</a></li>
+                <li><a href="./services.html" class="menu-item">Services</a></li>
+                <li><a href="./doctors.html" class="menu-item">Doctors</a></li>
+                <li><a href="./consulting_reservation.html" class="menu-item" >Consulting Reservation</a></li>
+                <li><a href="./pharmacy.html" class="menu-item">Pharmacy</a></li>
+                <li><a href="./about_us.html" class="menu-item">About Us</a></li>
+            </div>
+            </div>
+            <div class="footer_col">
+              <h4>Follow Us</h4>
+            <div class="social_media">
+              
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            </div>
+            <div class="live-sup">
+              <i class="fas fa-comments"></i></div>
+            </div>
+          </div>
+            <div class="footer-bottom">
+              <small> <br>Copyright &copy; 2024 Doctor Hospitals(Private)Ltd. All right reserved <br></small>
+            </div>
+    </footer>
+<!--www.pond5.com-->
+<!--www.wecare24.com-->
+<!--www.istock.com-->
+</body>
+</html>

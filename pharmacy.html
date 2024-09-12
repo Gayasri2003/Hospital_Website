@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Hospitals</title>
+    <link rel="stylesheet" href="./css/stylesheet_pharmacy.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#989ac2">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+      function toggleMenu() {var navLinks = document.getElementById("nav-links");
+                             navLinks.classList.toggle("show");}
+    </script>
+</head>
+<body>
+    <!--sementic html-->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+          <a href="./home.html">
+            <img src="./images/Freelancer (5).png" alt="logo"></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./contact_us.html">Contact Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./doctors.html">Doctors</a></li>
+                <li><a href="./consulting_reservation.html">Consulting Reservation</a></li>
+                <li><a href="./pharmacy.html">Pharmacy</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+            </ul>
+            <div class="nav-right">
+              <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+                  <div class="search-icon" id="search-form">
+                  <form>
+                      <input type="text" placeholder="Search" id="search-input">
+                      <button type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+      <section class="pharmacy-text">
+        <h2> 24-Hour Pharmacy: Elevating Convenience, Enhancing Care</h2>
+        <p>"Doctor Hospitals" proudly presents a 24-hour pharmacy, ensuring you have seamless access
+           to pharmaceutical essentials at any time.Located conveniently near the entrance, our 
+           outdoor pharmacy offers a vast selection of over 15,000 high-quality products at 
+           affordable rates.Our well-qualified and friendly pharmacists go beyond prescriptions,
+           providing valuable guidance on health and well-being products tailored to your needs.</p>
+      </section>
+      <section class="form1">
+        <div class="pharmacy-form-container">
+          <h2>Pharmacy Request Form</h2>
+          <form class="pharmacy-form">
+              <div class="form-group">
+                  <label for="name">Full Name:</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+              </div>
+              <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+              </div>
+              <div class="form-group">
+                <label for="age">Patient Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter patient's age" required>
+            </div>
+            <div class="form-group">
+              <label for="category">Medication Category:</label>
+              <select id="category" name="category" required>
+                  <option value="">Select Category</option>
+                  <option value="antibiotic">Antibiotic</option>
+                  <option value="analgesic">Analgesic</option>
+                  <option value="antiviral">Antiviral</option>
+                  <option value="vitamins">Vitamins & Supplements</option>
+                  <option value="other">other</option>
+              </select>
+          </div>
+              <div class="form-group">
+                  <label for="medication">Medication Name:</label>
+                  <input type="text" id="medication" name="medication" placeholder="Enter medication name" required>
+              </div>
+              <div class="form-group">
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" required>
+              </div>
+              <div class="form-group">
+                  <label for="prescription">Prescription:</label>
+                  <input type="file" id="prescription" name="prescription">
+              </div>
+              <button type="submit" class="submit-button">Submit Request</button>
+          </form>
+        </div>
+      </section>
+      <!--video-section-->
+      <section>
+        <div class="pharmacy-video">
+          <video id="pharmacy-video" autoplay loop muted>
+          <source src="./images/pharmacy-video.mp4">
+          </video>
+      </div>
+      </section>
+    </main>
+<!--footer-->
+<footer class="footer-d">
+    <div class="container2">
+        <div class="footer_col">
+          <h4>Contact Us</h4>
+          <ul class="contact_us">
+           <i class="fas fa-map-marker-alt"> Location</i> 
+           <li>No.456,Main street,Kegalle.</li> <br>
+           <i class="fas fa-phone"> Phone</i>
+           <li>035-2244115 / 076-1122334 </li><br>
+           <i class="fas fa-envelope"> Email</i>
+           <li>doctorhospitals@gmail.com</li><br> </ul>  
+        </div>
+        <div class="footer_col">
+          <h4>Quick Links</h4>
+        <div class="quick_links">
+            <li><a href="./home.html" class="menu-item active">Home</a></li>
+            <li><a href="./contact_us.html" class="menu-item">Contact Us</a></li>
+            <li><a href="./services.html" class="menu-item">Services</a></li>
+            <li><a href="./doctors.html" class="menu-item">Doctors</a></li>
+            <li><a href="./consulting_reservation.html" class="menu-item" >Consulting Reservation</a></li>
+            <li><a href="./pharmacy.html" class="menu-item">Pharmacy</a></li>
+            <li><a href="./about_us.html" class="menu-item">About Us</a></li>
+        </div>
+        </div>
+        <div class="footer_col">
+          <h4>Follow Us</h4>
+        <div class="social_media">
+          
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+        </div>
+        <div class="live-sup">
+          <i class="fas fa-comments"></i></div>
+        </div>
+      </div>
+        <div class="footer-bottom">
+          <small> <br>Copyright &copy; 2024 Doctor Hospitals(Private)Ltd. All right reserved <br></small>
+        </div>
+</footer>
+<!--www.istockphoto.com-->
+</body>
+</html>
